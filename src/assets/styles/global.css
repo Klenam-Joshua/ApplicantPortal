@@ -1,0 +1,43 @@
+.active-link {
+  color: var(--color-accent) !important;
+}
+
+.jkl-link {
+  color: var(--color-footer);
+  font-weight: 400 !important;
+  font-size: 0.97rem;
+  transition: 0.4s all;
+}
+
+.active-link::after {
+  content: "";
+  display: block;
+  height: 0.2rem;
+  background-color: #1861bf;
+  width: 120%;
+}
+
+.active-tab::after {
+  content: "";
+  display: block;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.jkl-bg-secondary {
+  background-color: var(--color-secondary);
+}
+.jkl-bg-secondary-light {
+  background-color: var(--color-secondary-light);
+}
+.jkl-text-secondary {
+  background-color: var(--color-secondary);
+}
+.jkl-text-secondary-light {
+  background-color: var(--color-secondary-light);
+}

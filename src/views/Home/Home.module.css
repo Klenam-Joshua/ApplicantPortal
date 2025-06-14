@@ -1,0 +1,18 @@
+.homeContainer {
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.jobBox {
+  cursor: pointer;
+}
+.jobBox:hover {
+  /* background-color: #f4f4f4; */
+  background-color: rgb(236, 238, 239);
+}
+
+.jobCompany,
+.jobTitle {
+  font-size: 0.9rem;
+}

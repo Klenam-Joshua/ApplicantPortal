@@ -1,0 +1,6 @@
+.industryBox {
+}
+
+.industryBox:hover {
+  background-color: var(--color-secondary-light);
+}

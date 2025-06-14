@@ -1,0 +1,6 @@
+.searchList {
+}
+
+.recentSearches li:first-child {
+  border-top: 0;
+}

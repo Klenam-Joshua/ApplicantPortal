@@ -1,0 +1,11 @@
+.dropdown {
+}
+
+.dropdown::after {
+  content: "" !important;
+  display: none !important;
+}
+
+.dropdownItem {
+  cursor: pointer !important;
+}
